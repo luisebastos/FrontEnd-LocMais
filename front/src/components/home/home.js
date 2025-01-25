@@ -6,7 +6,7 @@ const Home = () => {
     <div className="home-page">
       <Sidebar />
       <div className="home-content">
-        {/* Você pode colocar conteúdo aqui para testar ou deixar vazio como placeholder */}
+        {/* ALUGUEIS A VENCES AQUI */}
         <h1>Bem-vindo à Home Page</h1>
       </div>
     </div>

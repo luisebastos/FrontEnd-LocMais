@@ -1,30 +1,41 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import './sidebar.css';
+import back from '../../image/voltar.png';  
+import exit from '../../image/sair.png';
 
 const Sidebar = () => {
   const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
 
   return (
     <div className="sidebar">
       <ul>
         <li className={`menu-item ${location.pathname === '/calendario' ? 'active' : ''}`}>
-          <Link to="/calendario">Calendário</Link>
+          <button onClick={() => handleNavigation('/calendario')}>Calendário</button>
         </li>
         <li className={`menu-item ${location.pathname === '/caixa' ? 'active' : ''}`}>
-          <Link to="/caixa">Caixa</Link>
+          <button onClick={() => handleNavigation('/caixa')}>Caixa</button>
         </li>
         <li className={`menu-item ${location.pathname === '/acesso' ? 'active' : ''}`}>
-          <Link to="/acesso">Acesso</Link>
+          <button onClick={() => handleNavigation('/acesso')}>Acesso</button>
         </li>
         <li className={`menu-item ${location.pathname === '/configuracoes' ? 'active' : ''}`}>
-          <Link to="/configuracoes">Configurações</Link>
+          <button onClick={() => handleNavigation('/configuracoes')}>Configurações</button>
         </li>
         <li className={`menu-item ${location.pathname === '/agendafuncionario' ? 'active' : ''}`}>
-          <Link to="/agendafuncionario">Agenda do Funcionaário</Link>
+          <button onClick={() => handleNavigation('/agendafuncionario')}>Agenda do Funcionário</button>
         </li>
         <li className={`menu-item ${location.pathname === '/analytics' ? 'active' : ''}`}>
-          <Link to="/analytics">Analytics</Link>
+          <button onClick={() => handleNavigation('/analytics')}>Analytics</button>
+        </li>
+        <li className={`menu-item ${location.pathname === '/' ? 'active' : ''}`}>
+          <button onClick={() => handleNavigation('/')} className="icon-button">
+            <img src={exit} alt="exit" className="icon" /> Sair </button>
         </li>
       </ul>
     </div>

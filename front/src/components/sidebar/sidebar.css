@@ -1,20 +1,65 @@
 .sidebar {
-  width: 200px;
+  width: 250px;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #6E7D88;
   padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .menu-item {
   margin-bottom: 10px;
 }
 
-.menu-item a {
-  text-decoration: none;
+.menu-item button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddd;
   color: black;
-  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.menu-item.active a {
-  color: blue;
+.menu-item button:hover, .menu-item button.active {
+  background-color: #bbb;
+  color: white;
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-button img.icon {
+  width: 30px; 
+  height: 30px; 
+  margin-right: 10px; 
+}
+
+.menu-item button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddd;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-item button:hover, .menu-item button.active {
+  background-color: #bbb;
+  color: white;
 }
