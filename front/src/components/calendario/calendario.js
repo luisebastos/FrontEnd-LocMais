@@ -1,12 +1,14 @@
 import React from 'react';
-import Sidebar from '../sidebar/sidebar'; 
+import Sidebar from '../sidebar/sidebar';
+import Topbar from '../topbar/topbar'; 
 
 const Calendario = () => {
   return (
     <div className="calendario-page">
-      <Sidebar />
+      <Topbar /> 
+      <Sidebar /> 
       <div className="calendario-content">
-        {/* Preencher */}
+        {/* conteudo pagina calendario */}
       </div>
     </div>
   );

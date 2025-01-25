@@ -27,8 +27,8 @@ const Sidebar = () => {
         <li className={`menu-item ${location.pathname === '/configuracoes' ? 'active' : ''}`}>
           <button onClick={() => handleNavigation('/configuracoes')}>Configurações</button>
         </li>
-        <li className={`menu-item ${location.pathname === '/agendafuncionario' ? 'active' : ''}`}>
-          <button onClick={() => handleNavigation('/agendafuncionario')}>Agenda do Funcionário</button>
+        <li className={`menu-item ${location.pathname === '/agenda' ? 'active' : ''}`}>
+          <button onClick={() => handleNavigation('/agenda')}>Agenda do Funcionário</button>
         </li>
         <li className={`menu-item ${location.pathname === '/analytics' ? 'active' : ''}`}>
           <button onClick={() => handleNavigation('/analytics')}>Analytics</button>
