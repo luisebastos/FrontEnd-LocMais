@@ -31,7 +31,7 @@ const Login = () => {
 
           const data = await response.json();
           localStorage.setItem('adm', JSON.stringify(data)); 
-          navigate('/home'); // Redireciona para a página inicial
+          navigate('/home'); 
       } catch (error) {
           setErrorMessage('Credenciais inválidas! Tente novamente.');
       }

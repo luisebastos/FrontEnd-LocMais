@@ -8,14 +8,11 @@
     src: url('../../font/carme/Carme-Regular.ttf') format('truetype');
     }
 
-
-    
 .login-page {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #FFFFFF; 
     position: relative; 
     overflow: hidden; 
     }
@@ -30,21 +27,16 @@
     
     /* Formulário */
     .form-container {
-    background-color: #ABACA7; /* Azul médio */
-    padding: 100px;
+    background-color: #ABACA7; 
+    /* padding: 100px; */
+    padding: 70px 100px; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 90%;
+    width: 80%;
     max-width: 400px;
     text-align: center;
     }
-    
-    .form-container h2 {
-    font-family: 'Alata', sans-serif;
-    color: #000000; /* Branco */
-    margin-bottom: 30px;
-    }
-    
+     
     .input-container {
     margin-bottom: 20px;
     text-align: left;
@@ -53,7 +45,7 @@
     .input-container label {
     display: block;
     font-size: 1.5rem;
-    color: #FFFFFF; /* Branco */
+    color: #000000; 
     margin-bottom: 5px;
     }
     
@@ -61,42 +53,45 @@
     width: 100%;
     padding: 10px;
     font-size: 1rem;
-    border: 1px solid #E0E1DD; /* Borda cinza claro */
+    border: 1px solid #E0E1DD; 
     border-radius: 5px;
-    background-color: #abaca9; /* Fundo cinza claro */
+    background-color: #ffffff; 
     font-family: 'Carme', sans-serif;
-    color: #000000; /* Texto azul escuro */
+    color: #000000; 
     }
     
     .input-container input::placeholder {
-    color: #000000; /* Cor do placeholder */
+    color: #000000; 
     }
     
     .input-container input:focus {
     outline: none;
-    border: 1px solid #415A77; /* Destaque da borda */
+    border: 1px solid #415A77; 
+    }
+
+    .button-container {
+        margin-top: 50px; 
     }
     
     button.submit {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     font-size: 1rem;
     font-family: 'Carme', sans-serif;
     color: #ffffff; 
-    background-color: #415A77; /* Azul escuro */
+    background-color: #5E1B21;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     }
     
     button.submit:hover {
-    background-color: #627d9f; /* Azul médio */
+    background-color: #62656a; 
     }
     
-    /* Mensagem de erro */
     .error-message {
-    color: #FF0000; /* Vermelho */
+    color: #FF0000; 
     font-size: 0.9rem;
     margin-bottom: 15px;
     text-align: center;
