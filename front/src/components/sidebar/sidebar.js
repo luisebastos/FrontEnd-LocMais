@@ -33,14 +33,21 @@ const Sidebar = () => {
         <li className={`menu-item ${location.pathname === '/analytics' ? 'active' : ''}`}>
           <button onClick={() => handleNavigation('/analytics')}>Analytics</button>
         </li>
-        <li className={`menu-item ${location.pathname === '/' ? 'active' : ''}`}>
-          <button onClick={() => handleNavigation('/')} className="icon-button">
-            <img src={exit} alt="exit" className="icon" /> Sair </button>
-        </li>
+        <div className="special-container"> {/* container para voltar e sair ja q vao ficar longe dos outros */}
+          <li className={`menu-item ${location.pathname === '/voltar' ? 'active' : ''}`}>
+            <button onClick={() => navigate(-1)} className="icon-button">
+              <img src={back} alt="back" className="icon" /> Voltar
+            </button>
+          </li>
+          <li className={`menu-item ${location.pathname === '/' ? 'active' : ''}`}>
+            <button onClick={() => handleNavigation('/')} className="icon-button">
+              <img src={exit} alt="exit" className="icon" /> Sair
+            </button>
+          </li>
+        </div>
       </ul>
     </div>
   );
 };
 
 export default Sidebar;
-

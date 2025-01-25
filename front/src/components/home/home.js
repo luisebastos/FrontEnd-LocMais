@@ -7,7 +7,6 @@ const Home = () => {
       <Sidebar />
       <div className="home-content">
         {/* ALUGUEIS A VENCES AQUI */}
-        <h1>Bem-vindo à Home Page</h1>
       </div>
     </div>
   );
