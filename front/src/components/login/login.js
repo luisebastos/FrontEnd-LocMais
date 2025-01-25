@@ -10,31 +10,37 @@ const Login = () => {
   const [errorMessage, setErrorMessage] = useState('');
   const navigate = useNavigate();
 
-  const handleSubmit = async (e) => {
-      e.preventDefault();
-      if (!usuario || !senha) {
-          setErrorMessage('Por favor, preencha todos os campos!');
-          return;
-      }
-      console.log(JSON.stringify({ usuario, senha }));
+  // VERIFICACAO DE LOGIN E SENHA - PRECISA DA PARTE DO BACK FUNCIONANDO
+  // const handleSubmit = async (e) => {
+  //     e.preventDefault();
+  //     if (!usuario || !senha) {
+  //         setErrorMessage('Por favor, preencha todos os campos!');
+  //         return;
+  //     }
+  //     console.log(JSON.stringify({ usuario, senha }));
 
-      try {
-          const response = await fetch('http://localhost:8080/adm/login', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ usuario, senha }),
-          });
+  //     try {
+  //         const response = await fetch('http://localhost:8080/adm/login', {
+  //             method: 'POST',
+  //             headers: { 'Content-Type': 'application/json' },
+  //             body: JSON.stringify({ usuario, senha }),
+  //         });
 
-          if (!response.ok) {
-              throw new Error('Credenciais inválidas!');
-          }
+  //         if (!response.ok) {
+  //             throw new Error('Credenciais inválidas!');
+  //         }
 
-          const data = await response.json();
-          localStorage.setItem('adm', JSON.stringify(data)); 
-          navigate('/home'); 
-      } catch (error) {
-          setErrorMessage('Credenciais inválidas! Tente novamente.');
-      }
+  //         const data = await response.json();
+  //         localStorage.setItem('adm', JSON.stringify(data)); 
+  //         navigate('/home'); 
+  //     } catch (error) {
+  //         setErrorMessage('Credenciais inválidas! Tente novamente.');
+  //     }
+  // };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    navigate('/home');  
   };
 
   return (
