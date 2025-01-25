@@ -1,12 +1,14 @@
 import React from 'react';
-import Sidebar from '../sidebar/sidebar'; 
+import Sidebar from '../sidebar/sidebar';
+import Topbar from '../topbar/topbar'; 
 
 const Home = () => {
   return (
     <div className="home-page">
-      <Sidebar />
+      <Topbar /> 
+      <Sidebar /> 
       <div className="home-content">
-        {/* ALUGUEIS A VENCES AQUI */}
+        {/* conteudo pagina Home */}
       </div>
     </div>
   );

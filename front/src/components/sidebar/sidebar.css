@@ -3,12 +3,13 @@
   height: 100vh;
   background-color: #6E7D88;
   padding: 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 ul {
   list-style-type: none;
   padding: 0;
-  margin-top: 150px;;
+  margin-top: 40px;
 }
 
 .menu-item {
@@ -17,6 +18,7 @@ ul {
 
 .menu-item button {
   width: 100%;
+  padding: 10px;
   border: none;
   border-radius: 5px;
   background-color: #ddd;
@@ -24,6 +26,11 @@ ul {
   text-align: center;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Alata', sans-serif; 
+  font-size: 16px; 
 }
 
 .menu-item button:hover, .menu-item button.active {
@@ -38,29 +45,9 @@ ul {
 }
 
 .icon-button img.icon {
-  width: 30px; 
-  height: 30px; 
-  margin-right: 10px; 
-}
-
-.menu-item button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #ddd;
-  color: black;
-  text-align: center;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.menu-item button:hover, .menu-item button.active {
-  background-color: #bbb;
-  color: white;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
 .special-container {
