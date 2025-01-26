@@ -16,6 +16,7 @@ import Produtos from './components/produtos/produtos';
 import Aluguel from './components/aluguel/aluguel';
 import Analytics from './components/analytics/analytics';
 import Usuarios from './components/usuarios/usuarios';
+import Orcamentos from './components/orcamentos/orcamentos';
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
       <Route path="aluguel" element={<Aluguel />} />
       <Route path="analytics" element={<Analytics />} />
       <Route path="usuarios" element={<Usuarios />} />
+      <Route path="orcamentos" element={<Orcamentos />} />
     </Routes>
   );
 };
