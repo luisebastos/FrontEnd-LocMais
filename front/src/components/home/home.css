@@ -1,0 +1,14 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.content-container {
+    margin-top: -990px; 
+    margin-left: 250px;
+}
+
+.home-content {
+  text-align: center; 
+}
