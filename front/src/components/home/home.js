@@ -1,7 +1,7 @@
 import React from 'react';
 import Sidebar from '../sidebar/sidebar';
 import Topbar from '../topbar/topbar';
-import './home.css'; // Certifique-se que o caminho está correto
+import './home.css'; 
 
 const Home = () => {
   return (
