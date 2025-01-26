@@ -13,3 +13,20 @@
     text-align: center; 
   }
   
+  .acesso-message {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .acesso-message::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 52%; 
+    transform: translateX(-50%); 
+    width: 96%; 
+    height: 1px; 
+    background-color: #000;
+  }
+  

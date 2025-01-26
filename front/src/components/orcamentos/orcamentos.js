@@ -1,7 +1,7 @@
 import React from 'react';
 import Sidebar from '../sidebar/sidebar';
 import Topbar from '../topbar/topbar';
-import './orcamentos.css'; // Certifique-se que o caminho está correto
+import './orcamentos.css'; 
 
 const Orcamentos = () => {
   return (
@@ -11,7 +11,7 @@ const Orcamentos = () => {
         <Sidebar />
         <div className="content-container">
           <div className="orcamentos-content">
-            <h2 className="welcome-message">Orçamentos</h2>
+            <h2 className="orcamentos-message">Orçamentos</h2>
           </div>
         </div>
       </div>

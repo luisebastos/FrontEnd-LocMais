@@ -1,0 +1,32 @@
+.usuarios-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+  }
+  
+  .content-container {
+      margin-top: -990px; 
+      margin-left: 250px;
+  }
+  
+  .usuarios-content {
+    text-align: center; 
+  }
+  
+  .usuarios-message {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .usuarios-message::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 52%; 
+    transform: translateX(-50%); 
+    width: 96%; 
+    height: 1px; 
+    background-color: #000;
+  }
+  

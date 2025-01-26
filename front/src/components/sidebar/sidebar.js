@@ -29,7 +29,7 @@ const Sidebar = () => {
           <button onClick={() => handleNavigation('/configuracoes')}>Configurações</button>
         </li>
         <li className={`menu-item ${location.pathname === '/agenda' ? 'active' : ''}`}>
-          <button onClick={() => handleNavigation('/agenda')}>Agenda do Funcionário</button>
+          <button onClick={() => handleNavigation('/agenda')}>Agenda dos Funcionários</button>
         </li>
         <li className={`menu-item ${location.pathname === '/analytics' ? 'active' : ''}`}>
           <button onClick={() => handleNavigation('/analytics')}>Analytics</button>
