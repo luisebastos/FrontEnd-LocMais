@@ -3,6 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import './sidebar.css';
 import back from '../../image/voltar.png';  
 import exit from '../../image/sair.png';
+import home from '../../image/home.png'; 
 
 const Sidebar = () => {
   const location = useLocation();
@@ -34,6 +35,11 @@ const Sidebar = () => {
           <button onClick={() => handleNavigation('/analytics')}>Analytics</button>
         </li>
         <div className="special-container"> {/* container para voltar e sair ja q vao ficar longe dos outros */}
+        <li className={`menu-item ${location.pathname === '/' ? 'active' : ''}`}>
+            <button onClick={() => handleNavigation('/home')} className="icon-button">
+              <img src={home} alt="home" className="icon" /> Home
+            </button>
+          </li>
           <li className={`menu-item ${location.pathname === '/voltar' ? 'active' : ''}`}>
             <button onClick={() => navigate(-1)} className="icon-button">
               <img src={back} alt="back" className="icon" /> Voltar
