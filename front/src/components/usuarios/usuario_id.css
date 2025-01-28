@@ -31,23 +31,23 @@
   }
   
   p {
-    line-height: 1.6; /* Espaçamento da linha para melhor legibilidade */
-    margin-bottom: 10px; /* Espaçamento entre os parágrafos */
-    color: #333; /* Cor mais escura para melhor contraste */
-    font-size: 1.1em; /* Tamanho da fonte ligeiramente maior para leitura */
+    line-height: 1.6; 
+    margin-bottom: 10px; 
+    color: #333; 
+    font-size: 1.1em; 
 }
 
-.edit-button {
-  display: inline-block;
-  margin-top: 40px;
-  padding: 14px 30px;
-  background-color: #B7E686;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  border-radius: 5px;
-  text-align: center;
-}
+  .edit-button {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 14px 30px;
+    background-color: #B7E686;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
 
-.edit-button:hover {
-  background-color: #0056b3;
-}
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
