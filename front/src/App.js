@@ -17,6 +17,7 @@ import Aluguel from './components/aluguel/aluguel';
 import Analytics from './components/analytics/analytics';
 import Usuarios from './components/usuarios/usuarios';
 import Orcamentos from './components/orcamentos/orcamentos';
+import Usuario_id from './components/usuarios/usuario_id'; 
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
       <Route path="analytics" element={<Analytics />} />
       <Route path="usuarios" element={<Usuarios />} />
       <Route path="orcamentos" element={<Orcamentos />} />
+      <Route path="usuario/:id" element={<Usuario_id />} />
     </Routes>
   );
 };
