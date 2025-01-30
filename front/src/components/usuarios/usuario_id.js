@@ -35,6 +35,7 @@ const Usuario_id = () => {
                   </tbody>
                 </table>
                 <Link to={`/usuarios/editar/${usuario.id}`} className="edit-button">Editar</Link>
+                <Link to={`/usuarios/deletar/${usuario.id}`} className="deletar-button">Deletar</Link>
               </>
             ) : (
               <p>Usuário não encontrado</p>
