@@ -42,6 +42,9 @@ const Usuarios = () => {
                 ))}
               </tbody>
             </table>
+            <button className="btn-cadastrar">
+            <Link to="/usuarios/cadastro" className="link-cadastrar">Cadastrar</Link>
+            </button>
           </div>
         </div>
       </div>
