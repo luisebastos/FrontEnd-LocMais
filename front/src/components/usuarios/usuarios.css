@@ -60,3 +60,67 @@
   .btn-cadastrar:hover {
     background-color: #779d4e;
   }
+
+/* Estilo da barra de pesquisa */
+.search-bar {
+  width: 60%;
+  padding: 8px;
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilo do dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.dropdown-button {
+  background-color: #788CA8;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.dropdown-button:hover {
+  background-color: #516277;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-item input {
+  transform: scale(1.2);
+}
+
+/* Ajuste para melhor responsividade */
+@media screen and (max-width: 768px) {
+  .search-bar, .dropdown {
+    width: 90%;
+  }
+}
