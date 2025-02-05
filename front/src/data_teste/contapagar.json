@@ -1,0 +1,19 @@
+{
+    "id": "contaPagar123",
+    "NomeDaDespesa": "Compra de Material de Escritório",
+    "conta": "Conta Corrente",
+    "Categoria": "Material de Escritório",
+    "formaPagamento": "Boleto Bancário",
+    "dataVencimento": "2025-02-15",
+    "valor": 1200.00,
+    "fornecedor": "Fornecedor XYZ",
+    "dataEmissao": "2025-01-15",
+    "status": "Em Aberto",
+    "pago": false,
+    "dataPagamento": null,
+    "valorBaixa": 0.00,
+    "juros": 0.00,
+    "desconto": 0.00,
+    "taxa": 0.00,
+    "valorPago": 0.00
+  }

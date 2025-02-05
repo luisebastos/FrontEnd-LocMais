@@ -1,0 +1,8 @@
+{
+    "id": "banco123",
+    "banco": "Banco do Brasil",
+    "nomeConta": "Conta Corrente Empresarial",
+    "saldoInicial": 10000.50,
+    "saldoAtual": 8500.75,
+    "dataInicial": "2025-01-01"
+  }

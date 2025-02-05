@@ -1,0 +1,47 @@
+[  {
+        "id": "produto123",
+        "nome": "Mesa de Escritório",
+        "dataCadastro": "2025-02-04",
+        "fornecedor": "Fornecedor ABC",
+        "unidade": "peça",
+        "grupo": "Móveis",
+        "localizacao": "Armazém A - Prateleira 3",
+        "valorAluguel": 150.00,
+        "aoDia": true,
+        "valorVenda": 800.00,
+        "valorCompra": 500.00,
+        "estoque": 30,
+        "situacao": "disponível"
+    },
+    {
+        "id": "produto124",
+        "nome": "Cadeira Executiva",
+        "dataCadastro": "2025-02-04",
+        "fornecedor": "Fornecedor XYZ",
+        "unidade": "peça",
+        "grupo": "Móveis",
+        "localizacao": "Armazém B - Prateleira 1",
+        "valorAluguel": 120.00,
+        "aoDia": true,
+        "valorVenda": 650.00,
+        "valorCompra": 400.00,
+        "estoque": 50,
+        "situacao": "alugado"
+    },
+    {
+        "id": "produto125",
+        "nome": "Luminária de Mesa",
+        "dataCadastro": "2025-02-04",
+        "fornecedor": "Fornecedor LMN",
+        "unidade": "peça",
+        "grupo": "Iluminação",
+        "localizacao": "Armazém C - Prateleira 5",
+        "valorAluguel": 50.00,
+        "aoDia": false,
+        "valorVenda": 200.00,
+        "valorCompra": 120.00,
+        "estoque": 100,
+        "situacao": "disponível"
+    }
+]
+

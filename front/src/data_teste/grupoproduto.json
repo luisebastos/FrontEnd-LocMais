@@ -1,0 +1,21 @@
+{
+    "id": "grupoProduto123",
+    "nome": "Eletrônicos",
+    "descricao": "Produtos eletrônicos como smartphones, computadores e acessórios.",
+    "produtos": [
+      {
+        "id": "produto1",
+        "nome": "Smartphone XYZ",
+        "descricao": "Smartphone com 64GB de armazenamento, tela de 6.5 polegadas.",
+        "preco": 1500.00,
+        "categoria": "Smartphones"
+      },
+      {
+        "id": "produto2",
+        "nome": "Notebook ABC",
+        "descricao": "Notebook com 8GB de RAM, processador Intel i7.",
+        "preco": 3500.00,
+        "categoria": "Computadores"
+      }
+    ]
+  }

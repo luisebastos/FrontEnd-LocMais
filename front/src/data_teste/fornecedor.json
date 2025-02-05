@@ -1,0 +1,21 @@
+{
+    "id": "fornecedor123",
+    "pf": true,
+    "pj": false,
+    "razaoSocial": "João Silva Serviços",
+    "dataCadastro": "2025-02-04",
+    "cpf": "123.456.789-00",
+    "cnpj": null,
+    "cep": "01010-100",
+    "logradouro": "Rua Exemplo",
+    "complemento": "Sala 201",
+    "numero": "200",
+    "bairro": "Centro",
+    "localidade": "São Paulo",
+    "estado": "São Paulo",
+    "uf": "SP",
+    "regiao": "Sudeste",
+    "telefoneComercial": "(11) 4002-8922",
+    "email": "joao.silva@servicos.com.br"
+  }
+  
